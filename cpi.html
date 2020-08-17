@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 300px)" href="xsmallCPI.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 301px) and (max-width: 400px)" href="smallCPI.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 401px) and (max-width: 500px)" href="mediumCPI.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 700px)" href="largeCPI.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 701px) and (max-width: 1120px)" href="xCPI.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 1121px) and (max-width: 1500px)" href="xXCPI.css">	
+  <title>CPI and Inflation</title>
+</head>
+<body>
+  <div id="border">
+  <h1>Calculating CPI and Inflation</h1>
+    <div id="content">
+    <h3 id="year1">Year 1:<input type="number"></h3>
+	  <h3 id="year2">Year 2:<input type="number"></h3>
+	  <div id="container">
+	    <div id="product">
+	      <ul>
+		    <h3>Product</h3>
+	        <li>1.<input type="text"></li>
+		    <li>2.<input type="text"></li>
+		    <li>3.<input type="text"></li>
+		    <li>4.<input type="text"></li>
+		    <li>5.<input type="text"></li>
+		    <li>6.<input type="text"></li>
+		    <li>7.<input type="text"></li>
+		    <li>8.<input type="text"></li>
+		    <li>9.<input type="text"></li>
+		    <li>10.<input type="text"></li>
+		  </ul>
+		</div>
+		<div id="quantity">
+		  <ul>
+		    <h3>Quantity</h3>
+		    <li><input id="q1" type="number"></li>
+		    <li><input id="q2" type="number"></li>
+		    <li><input id="q3" type="number"></li>
+		    <li><input id="q4" type="number"></li>
+		    <li><input id="q5" type="number"></li>
+		    <li><input id="q6" type="number"></li>
+		    <li><input id="q7" type="number"></li>
+		    <li><input id="q8" type="number"></li>
+		    <li><input id="q9" type="number"></li>
+		    <li><input id="q10" type="number"></li>
+		  </ul>
+		</div>
+		<div id="price">
+		  <ul>
+		    <h3>Price</h3>
+		    <li>$<input id="m1" type="number"></li>
+		    <li>$<input id="m2" type="number"></li>
+		    <li>$<input id="m3" type="number"></li>
+		    <li>$<input id="m4" type="number"></li>
+		    <li>$<input id="m5" type="number"></li>
+		    <li>$<input id="m6" type="number"></li>
+		    <li>$<input id="m7" type="number"></li>
+		    <li>$<input id="m8" type="number"></li>
+		    <li>$<input id="m9" type="number"></li>
+		    <li>$<input id="m10" type="number"></li>
+		  </ul>
+		</div>
+		<div id="money">
+		  <ul>
+		    <h3>Cost</h3>
+		    <li><div id="d1"></div></li>
+			<li><div id="d2"></div></li>
+			<li><div id="d3"></div></li>
+			<li><div id="d4"></div></li>
+			<li><div id="d5"></div></li>
+			<li><div id="d6"></div></li>
+			<li><div id="d7"></div></li>
+			<li><div id="d8"></div></li>
+            <li><div id="d9"></div></li>
+			<li><div id="d10"></div></li>
+		  </ul>
+		</div>
+		</div>
+		<div id="container2">
+		<div id="prices">
+		  <ul>
+		    <h3>Price</h3>
+		    <li>$<input id="n1" type="number"></li>
+		    <li>$<input id="n2" type="number"></li>
+		    <li>$<input id="n3" type="number"></li>
+		    <li>$<input id="n4" type="number"></li>
+		    <li>$<input id="n5" type="number"></li>
+		    <li>$<input id="n6" type="number"></li>
+		    <li>$<input id="n7" type="number"></li>
+		    <li>$<input id="n8" type="number"></li>
+		    <li>$<input id="n9" type="number"></li>
+		    <li>$<input id="n10" type="number"></li>
+		  </ul>
+		</div>
+		<div id="costs">
+		  <ul>
+		    <h3>Cost</h3>
+		    <li><div id="e1"></div></li>
+			<li><div id="e2"></div></li>
+			<li><div id="e3"></div></li>
+			<li><div id="e4"></div></li>
+			<li><div id="e5"></div></li>
+			<li><div id="e6"></div></li>
+			<li><div id="e7"></div></li>
+			<li><div id="e8"></div></li>
+            <li><div id="e9"></div></li>
+			<li><div id="e10"></div></li>
+		  </ul>
+		</div>
+	  </div>
+	  <div id="container3">
+	    <button id="cal">Get Cost For Year 1</button>
+	    <button id="basket">Get Basket Price</button>
+	    <button id="cal1">Get Cost For Year 2</button>
+	  </div>
+	<div id="container4">
+	  <div id="input1">
+	    <div id="result"></div>
+	    <input id="enter" type="number" placeholder="Enter Basket Price">
+	  </div>
+	  <div id="input2">
+	    <div id="result1"></div>
+	    <input id="enter1" type="number" placeholder="Enter Basket Price">
+	  </div>
+	</div>
+	  <div id="block2">
+	    <div id="container5">
+	      <div id="cpi1Result"></div>
+	      <button id="cpi1">CPI For Year 1</button>
+		</div>
+		 <div id="container6">
+		   <div id="cpi2Result"></div>
+		   <button id="cpi2">CPI For Year 2</button>
+		 </div>
+	     <div id="container7">
+	      <div id="inflationResult"></div>
+	      <button id="inflationRate">Inflation Rate</button>
+	    </div>
+	  </div>
+	</div>
+  </div>
+	
+   <script type="text/javascript" src="cpi.js"></script>
+
+</body>
+</html>
+
+//Created by Anthony Moore

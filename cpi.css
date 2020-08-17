@@ -1,0 +1,200 @@
+#border {
+	background:#f7fcf7;
+	border:1px solid black;
+	width:1100px;
+	height:760px;
+	margin:100px auto;
+	border-radius:10px;
+}
+
+h1 {
+	background:#3a3023;
+	text-align:center;
+	color:white;
+	padding:20px;
+	position:relative;
+	bottom:22px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+h3 input {
+	width:60px;
+}
+
+textarea:focus, input {
+	font-size:13px;
+}
+
+input {
+	border:1px solid #7ab579;
+	border-radius:3px;
+	outline:none;
+}
+
+#year1 {
+	position:relative;
+	left:160px;
+}
+
+#year2 {
+	float:right;
+	position:relative;
+	right:130px;
+	bottom:65px;
+}
+
+#container {
+	flex:1;
+	display:flex;
+}
+
+#container2 {
+	flex:1;
+	display:flex;
+	position:relative;
+	left:150px;
+}
+
+li {
+	list-style-type:none;
+	padding-bottom:5px;
+}
+
+#quantity input {
+	width:70px;
+}
+
+#price input {
+	width:110px;
+}
+
+#prices input {
+	width:110px;
+}
+
+#container3 {
+	flex:1;
+	display:flex;
+	position:relative;
+	left:290px;
+	top:60px;
+}
+
+
+#cal {
+	position:relative;
+	right:200px;
+}
+
+#cal1 {
+	position:relative;
+	left:200px;
+}
+
+#container4 {
+	flex:1;
+	display:flex;
+	position:relative;
+	bottom:40px;
+}
+
+#result {
+	border:1px solid #7ab579;
+	border-radius:5px;
+	background:white;
+	width:110px;
+	position:relative;
+	left:500px;
+
+}
+
+#enter {
+	position:relative;
+	left:257px;
+	width:110px;
+
+}
+
+#result1 {
+	border:1px solid #7ab579;
+	border-radius:5px;
+	background:white;
+	width:110px;
+	height:20px;
+	position:relative;
+	left:660px;
+}
+
+#enter1 {
+	position:relative;
+	left:420px;
+	width:110px;
+}
+
+#block {
+	flex:1;
+	display:flex;
+	position:relative;
+	top:143px;
+	left:220px;
+}
+
+button {
+	background:#244224;
+	border:1px solid #162616;
+	outline:none;
+	cursor:pointer;
+	color:white;
+	padding:10px 30px;
+	font-weight:bold;
+}
+
+button:hover {
+	background:#3a6339;
+}
+
+button:active {
+	background:#162616;
+}
+
+#container5 {
+	position:relative;
+	right:120px;
+}
+
+#cpi1Result {
+	position:relative;
+	text-align:center;
+	bottom:50px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#container6 {
+	position:relative;
+	left:480px;
+
+}
+
+#cpi2Result {
+	position:relative;
+	text-align:center;
+	bottom:50px;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#container7 {
+	position:relative;
+	right:40px;
+}
+
+#inflationResult {
+	position:relative;
+	text-align:center;
+	bottom:50px;
+	font-size:30px;
+	font-weight:bold;
+}
+
