@@ -1,0 +1,151 @@
+body {
+  background:#edf7ef;
+  margin:auto;
+  overflow-x:hidden;
+}
+
+h1 {
+  background:#0a4214;
+  overflow:hidden;
+  color:white;
+  text-align:center;
+  font-size:23px;
+  padding:35px 0px;
+}
+
+#hlinks {
+  position:relative;
+  bottom:16px;
+}
+#hlinks ul {
+  background:#5a9e66;
+  list-style-type:none;
+  margin:0px;
+  overflow:hidden;
+}
+
+#hlinks li {
+  float: left;
+}
+
+#hlinks a {
+  text-decoration:none;
+  color:white;
+  display:block;
+  padding:30px 1px 25px 20px;
+  font-size:18px;
+}
+
+#hlinks a:hover {
+  background:#1b261d;
+}
+
+input {
+  outline:none;
+  border: 1px solid #9bc4a2;
+  border-radius:5px;
+}
+
+textarea:focus, input {
+  font-size:15px;
+}
+
+#budget {
+position:relative;
+top:5px;
+}
+
+#budget input {
+  width:150px;
+}
+
+#user {
+  position:relative;
+  left:100px;
+}
+
+#user span {
+  font-weight:bold;
+  font-size:25px;
+}
+
+#valAmount {
+  background:#0a4212;
+  outline:none;
+  border:none;
+  color:white;
+  padding:10px;
+  font-weight:bold;
+}
+
+#valAmount:active {
+  background:#4f6052;
+}
+
+#flex-container {
+  flex:1;
+  display:flex;
+}
+
+li {
+  list-style:none;
+  padding-bottom:5px;
+  position:relative;
+  right:40px;
+}
+
+#bills input {
+  width:185px;
+}
+
+#price input {
+  width:75px;
+}
+
+#costs input {
+   width:75px;
+   position:relative;
+   left:261px;
+   bottom:13px;
+}
+
+#calculate {
+  position:relative;
+  left:160px;
+  bottom:5px;
+}
+
+#calculate span {
+  font-weight:bold;
+  font-size:30px;
+}
+
+#cal {
+  background:#0a4212;
+  outline:none;
+  border:none;
+  color:white;
+  padding:10px 15px;
+  font-weight:bold;
+  position:relative;
+  right:45px;
+}
+
+#cal:active {
+  background:#4f6052;
+}
+
+#totalAmount {
+  background:#0a4212;
+  outline:none;
+  border:none;
+  color:white;
+  padding:10px 15px;
+  font-weight:bold;
+  position:relative;
+  left:97px;
+  }
+
+#totalAmount:active {
+  background:#4f6052;
+}
