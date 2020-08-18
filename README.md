@@ -1,2 +1,2 @@
-Consumer Price Index and Inflation Calculator
-Users calculate the total cost from Year 1 and Year 2 and retrieve the basket price to calculate the CPI and Inflation rate.
+Shopping List Calculator
+Users can calculate the total cost of groceries as they shop. Users can also input the sales tax and discount percentages to generate a more accurate calucation of goods being purchased.
