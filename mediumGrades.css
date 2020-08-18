@@ -1,0 +1,86 @@
+body {
+	background-color:#f9fbff;
+	overflow:hidden;
+	margin:auto;
+}
+
+#container {
+	flex:1;
+	display:flex;
+	position:relative;
+	top:23px;
+
+}
+
+h2 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:white;
+	position:relative;
+	background:#1a377f;
+	text-align:center;
+	bottom:20px;
+	padding:12px;
+}
+
+h3 {
+	position:relative;
+	left:40px;
+}
+
+li {
+	list-style:none;
+	padding:5px;
+}
+
+#grades input {
+	width:20px;
+	text-align:center;
+}
+
+#credits input {
+	width:20px;
+	text-align:center;
+}
+
+textarea:focus, input[type=text]{
+	background:transparent;
+	outline:none;
+}
+
+textarea:focus, input[type=number] {
+	background:transparent;
+	outline:none;
+}
+
+#calculate {
+	position:relative;
+	top:110px;
+	text-align:center;
+}
+
+p, span {
+	font-size:35px;
+}
+
+button {
+	background-color:#1a377f;
+	font-weight:bold;
+	color:white;
+	display:block;
+	font-size:25px;
+	width:600px;
+	max-width:100%;
+	height:60px;
+	border:none;
+	cursor:pointer;
+	outline:none;
+	position:relative;
+	right:px;
+}
+
+button:active {
+	background:#36445b;
+}
+
+
+
