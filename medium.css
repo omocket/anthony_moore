@@ -1,0 +1,217 @@
+body {
+	background-image: url("background.png");
+	margin:100px auto auto auto;
+	background-size:auto 600px;
+}
+
+h1 {
+	background:black;
+	padding:10px;
+	font-size:30px;
+	text-align:center;
+	color:white;
+	font-family:Times New Roman;
+	position:relative;
+	bottom:100px;
+}
+
+h3 {
+	font-size:20px;
+}
+
+#flex-container {
+	flex:1;
+	display:flex;
+	justify-content:space-around;
+}
+
+#calculate,#inputs {
+	flex:1;
+	display:block;
+	text-align:right;
+	position:relative;
+	bottom:147px;
+}
+
+#list, #quantity, #price {
+	position:relative;
+	bottom:134px;
+}
+
+
+li {
+	list-style:none;
+	position:relative;
+	right:35px;
+	font-size:15px;
+	
+}
+
+#list input {
+	width:110px;
+
+	
+}
+
+#quantity {
+	position:relative;
+	right:25px;
+}
+
+#quantity input {
+	width:50px;
+
+}
+
+
+#price input {
+	width:60px;
+
+}
+
+textarea:focus, input[type=text] {
+	background: transparent;
+	border:none;
+	font-size:20px;
+	outline:none;	
+}
+
+textarea:focus, input[type=number] {
+	background: transparent;
+	border:none;
+	font-size:20px;
+	outline:none;
+	
+}
+
+#l1, #q1, #p1 {
+	position:relative;
+	bottom:24px;
+}
+
+#l2, #q2, #p2 {
+	position:relative;
+	bottom:28px;
+}
+
+#l3, #q3, #p3 {
+	position:relative;
+	bottom:33px;
+}
+
+#l4, #q4, #p4 {
+	position:relative;
+	bottom:38px;
+}
+
+#l5, #q5, #p5 {
+	position:relative;
+	bottom:43px;
+}
+
+#l6, #q6, #p6 {
+	position:relative;
+	bottom:47px;
+}
+
+#l7, #q7, #p7 {
+	position:relative;
+	bottom:52px;
+}
+
+#l8, #q8, #p8 {
+	position:relative;
+	bottom:56px;
+}
+
+#l9, #q9, #p9 {
+	position:relative;
+	bottom:60px;
+}
+
+#l10, #q10, #p10 {
+	position:relative;
+	bottom:65px;
+}
+
+#l11, #q11, #p11 {
+	position:relative;
+	bottom:70px;
+	
+}#l12, #q12, #p12 {
+	position:relative;
+	bottom:74px;
+}
+
+#l13, #q13, #p13 {
+	position:relative;
+	bottom:79px;
+}
+
+#l14, #q14, #p14 {
+	position:relative;
+	bottom:84px;
+}
+
+#l15, #q15, #p15 {
+	position:relative;
+	bottom:88px;
+}
+
+
+#inputs{
+	position:relative;
+	bottom:238px;
+	right:40px;
+	font-size:15px;
+}
+
+#t {
+	position:relative;
+	bottom:20px;
+}
+
+#inputs input {
+	position:relative;
+	left:6px;
+}
+
+#discount {
+	width:50px;
+}
+
+#tax {
+	width:75px;
+}
+
+
+
+#calculate {
+	text-align:center;
+	position:relative;
+	bottom:260px;
+	right:15px;
+}
+
+#calculate button {
+	background-color:#ff1a1a;
+	color:white;
+	display:inline-block;
+	font-size:17px;
+	padding:8px;
+	border:none;
+	cursor:pointer;
+	border-radius:6px;
+	outline:none;
+	position:relative;
+	bottom:25px;
+}
+
+#p, #result {
+	font-size:30px;
+}
+
+#perc, #tperc {
+	position:relative;
+	left:5px;
+}
