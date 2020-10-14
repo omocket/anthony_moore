@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=width-device, user-scalable=no, intial-scale=0, minimal-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>User</title>
+    </head>
+        <body>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a href="home.html" class="navbar-brand">AM</a>
+                <button class="navbar-toggler">
+                    <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navBarMenu"></span>
+                </button>
+                <div id="navBarMenu" class="collapse navbar-collapse">
+                   <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="user.html" class="nav-link">User</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Navigating Through Links</h1>
+                <h2>Navigation Guide</h2>
+                    <p>Please enter a number between:</p>
+                        <ul>
+                            <li>1 and 5 to navigate to the Home link.</li>
+                            <li>6 and 10 to navigate to the About link.</li>
+                            <li>11 and 20 to navigate to the Contact link.</li>
+                        </ul>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <input id="tVal" class="form-control" type="text" placeholder="Enter text value here">
+                </div>
+                <div class="col-sm-6">
+                    <input id="nVal" class="form-control" type="number" placeholder="Enter a number between 1 and 20">
+                </div>
+                <div class="col-lg-12">
+                    <button type="button" id="btn" class="btn btn-primary btn-lg btn-block">Validate</button>
+                </div>
+            </div>
+            <div id="container"><p id="result"></p></div>
+                <div id="textResult"></div>
+            
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="cisScript.js"></script>
+        </body>
+</html>
