@@ -1,0 +1,1 @@
+The project focuses on the design and functionality of developing a website. The user enters some text and a number to print out a link and some text on the web page. The project consists of HTML, CSS, and JavaScript languages to develop the necessary skills to succeed in web development.
