@@ -1,0 +1,10 @@
+.background {
+	display:inline-block;
+	background-color:rgb(0,0,0,0.6);
+	padding:5px;
+}
+
+.background div {
+	font-size:24px;
+	color:white;
+}
