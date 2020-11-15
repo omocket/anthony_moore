@@ -1,0 +1,175 @@
+body {
+	background:#e6e8ed;
+	margin:auto;
+	text-align:center;
+}
+
+.page {
+	background:#e6e8ed;
+	margin:auto;
+}
+
+.title {
+	font-family:"Arial Black", Gadget, sans-serif;
+	background:#a2bce5;
+	font-weight:bold;
+	text-align:center;
+	padding:20px;
+	position:relative;
+	bottom:22px;
+}
+
+.link {
+	background:#626e82;
+	list-style-type:none;
+	overflow:hidden;
+	position:relative;
+	bottom:45px;
+	padding:10px;
+}
+
+#links li {
+    float:left;	
+}
+
+#links a {
+	text-decoration:none;
+	display:inline-block;
+	color:white;
+	font-size:25px;
+	width:100px;
+	
+}
+
+.hlink {
+	text-decoration:none;
+	display:block;
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+
+#appointment {
+	text-align:center;
+	position:relative;
+	top:150px;
+}
+
+span {
+	border: 1px #1a377f black;
+	padding:10px;
+	border-radius:5px;
+	background:#1a377f;
+	
+}
+
+span a {
+	text-decoration:none;
+	color:white;
+}
+
+span:hover {
+	background:#626e82;
+}
+
+#container1 {
+	display:inline-block;
+	width:180px;
+}
+
+#container2 {
+	display:inline-block;
+	width:180px;
+	position:relative;
+	left:60px;
+}
+
+#user {
+	display:inline-block;
+	width:260px;
+	position:relative;
+	bottom:380px;
+}
+
+#b1, #c1 {
+	background:#3e773a;
+}
+
+#b2, #c2 {
+	background:#2d2e56;
+}
+
+#b3, #c3 {
+	background:#5e210d;
+}
+
+#b4, #c4 {
+	background:#d65024;
+}
+
+#b5, #c5 {
+	background:#39386b;
+}
+
+#b6, #c6 {
+	background:#131151;
+}
+
+#b7, #c7 {
+	background:#3b5146;
+}
+
+#b8, #c8 {
+	background:#4c0a16;
+}
+
+#b9, #c9 {
+	background:#321038;
+}
+
+#b10, #c10 {
+	background:#1a5c6d;
+}
+
+#b11, #c11 {
+	background:#4f595b;
+}
+
+#b12, #c12 {
+	background:#141c3a;
+}
+
+
+button {
+	padding:20px;
+	margin-left:10px;
+	margin-bottom:15px;
+	border-radius:10px;
+	
+
+	color:white;
+}
+
+#apt {
+	font-size:20px;
+	font-weight:bold;
+	display:inline-block;
+	position:relative;
+	bottom:430px;
+	left:55px;
+}
+
+#confirmation {
+	display:inline-block;
+	width:350px;
+	position:relative;
+	left:430px;
+	bottom:460px;
+}
+
+#reset {
+	background:red;
+	position:relative;
+	right:35px;
+	top:100px;
+}
