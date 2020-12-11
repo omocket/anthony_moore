@@ -1,0 +1,27 @@
+.align {
+  display: flex;
+  justify-content: center;
+}
+
+.alignText {
+  text-align: center;
+}
+
+.border {
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.border1 {
+  border: 1px solid black;
+  width: 600px;
+}
+
+.bColor {
+  border: 1px solid #ccfcfc;
+  background-color: #fdffc4;
+}
